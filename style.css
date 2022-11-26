@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
+  position: relative;
 }
 .udemylogo{
   width: 10%;
@@ -51,7 +52,7 @@
 }
 .dropdown-content a {
   color: black;
-  padding: 30px 50px;
+  padding: 15px 50px;
   text-decoration: none;
   display: block;
 }
@@ -97,12 +98,209 @@
 margin-left: 500px;
 font-weight: bolder;
 }
-.dropone{
+.dropinnerbtn{
+  color:black;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+}
+.dropdowns {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-inner {
+  display: none;
+  position: absolute;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 30px 20px;
+  margin-left: 300px;
+  height: 550px;
+  bottom: -520px;
+  gap: 10px;
+}
+.dropdown-inner a{
+  color: black;
+  /* padding: 105px 50px; */
+  text-decoration: none;
+  display: block;
+  height: 500px;
+}
+.hee{
+  margin-top: 30px;
+}
+.dropdown-inner a:hover {
+  background-color: #ddd;
+}
+.dropdowns:hover .dropdown-inner {
+  display: block;
+}
+.dropdowns:hover .dropinnerbtn {
+  color: purple;
+}
+.sec-one{
+ background-image: url(./images/female.jpg);
+  height: 70vh;
+  padding: 30px 40px;
+ 
+}
+.sect-text{
   background-color: white;
-  height: 40px;
+  width: 40%;
+  height: 50vh;
+  padding: 30px 40px;
+}
+.learn{
+  font-size: 50px;
+}
+.skills{
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 100;
+}
+.skill{
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.sec-two{
+  background-color: white;
+  height: 200vh;
+  padding: 30px 40px;
+}
+.brand{
+  font-size: 30px;
+}
+.choose{
+  font-size: 30px;
+  padding: 30px 0;
+  font-weight: 100;
+}
+.lang{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: #6a6f73;
+}
+a:hover {
+  color: black;
+  font-weight: bolder;
+}
+.aws{
+  color: black;
+}
+.draw{
+  background-color: white;
+  height: 150vh;
+  border: 1px solid #6a6f73;
+  padding: 60px 40px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+.expand{
+  font-size: 38px;
+}
+.take{
+  font-size: 22px;
+  margin-top: 20px;
+  color: #121414;
+  font-weight: 100;
+}
+.simp{
+  font-size: 22px;
+  color: #121414;
+  font-weight: 100;
+}
+.btn{
+  width: 170px;
+  height: 50px;
+  margin: 20px 0;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: white;
+  font-weight: bolder;
+}
+.row{
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.dropone a:hover 
-{ color: purple;
+.colone{
+  height: 80vh;
+  width: 30%;
+}
+.coltwo{
+  height: 80vh;
+  width: 30%;
+}
+.colthree{
+  height: 80vh;
+  width: 30%;
+}
+.col-oneimage{
+  width: 100%;
+  height: 30vh;
+ /* text-align: center; */
+}
+.coltwoimage{
+  width: 100%;
+  height: 30vh;
+}
+.colthreeimage{
+  width: 100%;
+  height: 30vh;
+}
+.pty{
+  margin-top: 10px;
+  
+}
+.ptys{
+  margin-top: 10px;
+  font-size: 23px;
   font-weight: bolder;
+}
+.shine{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.starim{
+  width: 50%;
+}
+.num{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.best{
+  width: 100px;
+  height: 30px;
+  margin: 20px 0;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(201, 181, 68);
+  font-weight: bolder;
+}
+.und{
+  text-decoration: line-through;
+  color:#6a6f73;
+}
+.bol{
+  font-weight: bolder;
+  font-size: larger;
+}
+.faint{
+  color:#6a6f73;
+  font-weight: 100;
 }
