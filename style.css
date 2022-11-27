@@ -234,6 +234,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 .colone{
   height: 80vh;
@@ -282,6 +283,7 @@ a:hover {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  margin-top: -10px;
 }
 .best{
   width: 100px;
@@ -303,4 +305,147 @@ a:hover {
 .faint{
   color:#6a6f73;
   font-weight: 100;
+  margin-top: 5px;
+}
+.sec-three{
+  background-color: white;
+  height: 260vh;
+  padding: 30px 40px;
+}
+.stud{
+  font-size: 35px;
+  font-weight: bolder;
+}
+.rows{
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.columnone{
+  width: 23%;
+  height: 60vh;
+}
+.columntwo{
+  width: 23%;
+  height: 60vh;
+}
+.columnthree{
+  width: 23%;
+  height: 60vh;
+}
+.columnfour{
+  width: 23%;
+  height: 60vh;
+}
+/* .comb{
+display: flex;
+flex-direction: column;
+gap: -50px;
+} */
+.loneone{
+  width: 100%;
+}
+.desi{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.rowss{
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-top: -55px;
+}
+.sec-four{
+  background-color: #f0f2f3;
+  height: 120vh;
+  padding: 100px 40px;
+}
+.new{
+  text-decoration: underline;
+  color:blue;
+  font-size:30px;
+  cursor:pointer;
+}
+.new:hover {
+  color:rgb(101, 101, 176);;
+}
+.mer{
+  margin-top: 20px;
+ 
+}
+.mert{
+  margin-top: 30px;
+  font-size:28px;
+}
+.rowsss{
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rowssi{
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+.dev{
+  margin-top:-30px;
+}
+.columnones{
+  width: 23%;
+  height: 15vh;
+  /* margin-top: 20px; */
+}
+.columntwos{
+  width: 23%;
+  height: 15vh;
+}
+.columnthrees{
+  width: 23%;
+  height: 15vh;
+}
+.columnfours{
+  width: 23%;
+  height: 15vh;
+}
+.faints{
+  color:#6a6f73;
+  font-weight: 100;
+  margin-top: 15px;
+}
+.exp{
+  width: 230px;
+  height: 70px;
+  margin: 20px 0;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: transp;
+  font-weight: bolder;
+}
+.comb{
+  margin-top:20px;
+}
+.sec-five{
+  background-color: white;
+  height: 130vh;
+  padding: 30px 40px;
+}
+.trust{
+  font-size: 35px;
+  font-weight: bolder;
+  padding: 50px 0;
+  text-align:center;
+}
+.lead{
+  text-align:center;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top:-40px;
 }
